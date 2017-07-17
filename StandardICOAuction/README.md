@@ -3,27 +3,27 @@ StandardICOAuction
 
 An ICO auction contract [provided by Majoolr](https://github.com/Majoolr "Majoolr's Github") and developed with the aim of standardizing ICO's. This contract allows for open bidding for 30 days followed by a random(ish) selection process that decides which bidders will participate if the ICO is oversubscribed. If the auction is not oversubscribed then the contract will issue tokens to all bidders. Auction creators will also set a minimum target raise that, if not met, will refund all bid money. This contract has some of the following characteristics:
 
-  *Creators set a minimum target and a raise cap
-  *Only one bid allowed per account
+*Creators set a minimum target and a raise cap
+*Only one bid allowed per account
 
-     All of us in the community understand that it is easy to create and bid from multiple accounts, see the discussion below for tracking multiple bids.
+   All of us in the community understand that it is easy to create and bid from multiple accounts, see the discussion below for tracking multiple bids.
 
-  *Creators will set a minimum bid amount for each bid
-  *Creators set a high price per token, low price per token, and a price increment
+*Creators will set a minimum bid amount for each bid
+*Creators set a high price per token, low price per token, and a price increment
 
-     The contract will use this information to create an array of price points each bidder should choose from when they submit a bid.
+   The contract will use this information to create an array of price points each bidder should choose from when they submit a bid.
 
-  *This contact will select a token price based on the reverse Dutch Auction format
+*This contact will select a token price based on the reverse Dutch Auction format
 
-     When the ICO is over, the contract's logic will calculate total bids starting from the highest price per token and then move down each price point until the raise cap is reached. The contract sets that point as the best price per token and all bidders who picked that point or higher will be included in the selection process and all bidders that picked a lower price will be able to redeem their bid deposit. From there, each winning bidder will receive a number of tokens calculated as totalBid/bestPrice.
+   When the ICO is over, the contract's logic will calculate total bids starting from the highest price per token and then move down each price point until the raise cap is reached. The contract sets that point as the best price per token and all bidders who picked that point or higher will be included in the selection process and all bidders that picked a lower price will be able to redeem their bid deposit. From there, each winning bidder will receive a number of tokens calculated as totalBid/bestPrice.
 
-     If the auction is not oversubscribed then the lowest price will be selected and all bidders will be issued tokens at that price. Again, if the minimum raise is not met then no tokens will be issued and all bidders will receive their bid deposit.
+   If the auction is not oversubscribed then the lowest price will be selected and all bidders will be issued tokens at that price. Again, if the minimum raise is not met then no tokens will be issued and all bidders will receive their bid deposit.
 
-  *Creators will be able to set a percentage of initial token supply to auction.
+*Creators will be able to set a percentage of initial token supply to auction.
 
-     ICO creators will set a percentage of initial token supply and only those tokens will be available in the auction.
+   ICO creators will set a percentage of initial token supply and only those tokens will be available in the auction.
 
-  *Creators set the starttime by submitting a future timestamp value and the endtime will be calculated as 30 days after that.
+*Creators set the starttime by submitting a future timestamp value and the endtime will be calculated as 30 days after that.
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
@@ -73,7 +73,7 @@ An ICO auction contract [provided by Majoolr](https://github.com/Majoolr "Majool
 ## License and Warranty
 
 Be advised that while we strive to provide professional grade, tested code we cannot
-guarantee its fitness for your application. This is released under [The MIT License (MIT)](https://github.com/Majoolr/ethereum-libraries/blob/master/LICENSE "MIT License")
+guarantee its fitness for your application. This is released under [The MIT License (MIT)](https://github.com/Majoolr/ethereum-contracts/blob/master/LICENSE "MIT License")
 and as such we will not be held liable for lost funds, etc. Please use your best
 judgment and note the following:   
 
