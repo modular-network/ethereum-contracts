@@ -5,8 +5,15 @@ Majoolr Contracts currently consists of token auction contracts that were [initi
 
 Contracts and libraries are currently written in Solidity and Solidity Assembly. If you are not familiar with the workings of Ethereum, smart contracts, or Solidity [please educate yourself by clicking here before proceeding](https://solidity.readthedocs.io/en/develop/introduction-to-smart-contracts.html "Solidity link").
 
-<!-- START doctoc -->
-<!-- END doctoc -->
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
+
+
+- [About Us](#about-us)
+- [How to use](#how-to-use)
+- [Let's Collaborate!](#lets-collaborate)
+
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ## About Us
 
