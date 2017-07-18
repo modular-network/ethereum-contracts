@@ -17,6 +17,13 @@ import "./ICOAuctionStandardToken.sol";
  * https://gist.github.com/Arachnid/b9886ef91d5b47c31d2e3c8022eeea27 .
  * The StandardToken was modified to allow for dynamic creation from this contract.
  *
+ * Majoolr works on open source projects in the Ethereum
+ * community with the purpose of testing, documenting, and deploying reusable
+ * code onto the blockchain to improve security and usability of smart
+ * contracts. Majoolr also strives to educate non-profits, schools, and other
+ * community members about the application of blockchain technology.
+ * For further information: majoolr.io
+ *
  * This is long with all of the comments. All execution is 100% on-chain.
  */
 
