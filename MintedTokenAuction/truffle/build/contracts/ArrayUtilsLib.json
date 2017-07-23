@@ -100,24 +100,6 @@
       "links": {},
       "address": "0xbe3eeaf48f204501db5de4be6181808680b58979",
       "updated_at": 1500255096371
-    },
-    "1500301693565": {
-      "events": {},
-      "links": {},
-      "address": "0x940aa489588203d0926dd842e168d1965b3fd448",
-      "updated_at": 1500302436815
-    },
-    "1500303116474": {
-      "events": {},
-      "links": {},
-      "address": "0xd531dff8fd3543a8f1c8ffd2aa034978e7e0ac47",
-      "updated_at": 1500303123866
-    },
-    "1500304195461": {
-      "events": {},
-      "links": {},
-      "address": "0x0d37e50d628d548455d9efe75a8139b22b18d460",
-      "updated_at": 1500304411064
     }
   },
   "schema_version": "0.0.5",
