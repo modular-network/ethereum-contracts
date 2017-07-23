@@ -1,6 +1,8 @@
 StandardICOAuction
 =========================
 
+[![Build Status](https://travis-ci.org/Majoolr/ethereum-contracts.svg?branch=master)](https://travis-ci.org/Majoolr/ethereum-contracts)   
+
 An ICO auction contract [provided by Majoolr](https://github.com/Majoolr "Majoolr's Github") and developed with the aim of standardizing ICO's. This contract allows for open bidding for 30 days followed by a random(ish) selection process that decides which bidders will participate if the ICO is oversubscribed. If the auction is not oversubscribed then the contract will issue tokens to all bidders. Auction creators will also set a minimum target raise that, if not met, will refund all bid money. This contract has some of the following characteristics:
 
 * Creators set a minimum target and a raise cap
