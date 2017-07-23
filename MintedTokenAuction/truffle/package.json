@@ -4,6 +4,6 @@
   "description": "Auction contract for pre-deployed standard token",
   "devDependencies": {
     "truffle": "^3.4.5",
-    "ethereumjs-testrpc": "^4.0.0"
+    "ethereumjs-testrpc": "^3.0.5"
   }
 }
