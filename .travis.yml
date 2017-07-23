@@ -1,0 +1,13 @@
+language: 'node_js'
+sudo: false
+node_js:
+  - '8'
+
+env:
+  - TEST_DIR=StandardICOAuction/truffle
+  - TEST_DIR=MintedTokenAuction/truffle
+
+script:
+  - 'cd $TEST_DIR && npm install'
+  - 'testrpc --gasLimit 0xfffffffffff --account=''0xfacec5711eb0a84bbd13b9782df26083fc68cf41b2210681e4d478687368fdc3,100000000000000000000000000'' > /dev/null &'
+  - 'truffle test'

@@ -1,6 +1,8 @@
 Majoolr Contracts
 =========================
 
+[![Build Status](https://travis-ci.org/Majoolr/ethereum-contracts.svg?branch=master)](https://travis-ci.org/Majoolr/ethereum-contracts)   
+
 Majoolr Contracts currently consists of token auction contracts that were [initially inspired by reddit in the wake of network congestion](https://www.reddit.com/r/ethereum/comments/6iwyta/the_ico_contract_to_end_all_of_the_nonsense/ "reddit post"). All contracts are released under the [MIT License](https://github.com/Majoolr/ethereum-contracts/blob/master/LICENSE "MIT License") and are useable. [We also have an ethereum-libraries repository that currently holds deployed libraries](https://github.com/Majoolr/ethereum-libraries "Github link").
 
 Contracts and libraries are currently written in Solidity and Solidity Assembly. If you are not familiar with the workings of Ethereum, smart contracts, or Solidity [please educate yourself by clicking here before proceeding](https://solidity.readthedocs.io/en/develop/introduction-to-smart-contracts.html "Solidity link").

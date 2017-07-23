@@ -188,7 +188,7 @@ contract MintedTokenAuctionTest {
     }
 
     uint256 _len = bids[_tokenPrice].length++;
-    Bid _lastIndex = bids[_tokenPrice][_len];
+    Bid storage _lastIndex = bids[_tokenPrice][_len];
     if(_lastIndex.totalBid != 0){
       failedDeposit[msg.sender] = msg.value;
       ErrorMsg(msg.sender, "Submission error, call getFailedDeposit() and try again");
@@ -362,7 +362,7 @@ contract MintedTokenAuctionTest {
           continue;
         }
 
-        Bid _winningBid = bids[_bucket][_winnerIndex - _startIndex];
+        Bid storage _winningBid = bids[_bucket][_winnerIndex - _startIndex];
         if(_winningBid.totalBid < bestPrice){
           hashCode = sha3(hashCode);
           continue;

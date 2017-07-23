@@ -1,6 +1,8 @@
 MintedTokenAuction
 =========================
 
+[![Build Status](https://travis-ci.org/Majoolr/ethereum-contracts.svg?branch=master)](https://travis-ci.org/Majoolr/ethereum-contracts)   
+
 An auction contract [provided by Majoolr](https://github.com/Majoolr "Majoolr's Github") and developed alongside the StandardICOAuction contract for standard tokens that have already been minted. This contract allows for open bidding for 30 days followed by a random(ish) selection process that decides which bidders will participate if the auction is oversubscribed. If the auction is not oversubscribed then the contract will issue tokens to all bidders. Auction creators will also set a minimum number of tokens to sell that, if not met, will refund all bid money. This contract has some of the following characteristics:
 
 * Creators set a minimum number and maximum number of tokens to sell
@@ -120,7 +122,7 @@ The following process will allow you to `truffle test` this library in your proj
    **Note**: The tests are written using Truffle's awesome truffle testing mechanisms and they are gas hungry. When starting your testrpc node be sure to set the gas and starting ether options high to allow for consumption. For example:
 
    ```
-   $ testrpc --gasLimit 0xffffffffffffffffffffffffffffffffffffff --account="0xfacec5711eb0a84bbd13b9782df26083fc68cf41b2210681e4d478687368fdc3,1000000000000000000000000000000000000000000"
+   $ testrpc --gasLimit 0xfffffffffff --account="0xfacec5711eb0a84bbd13b9782df26083fc68cf41b2210681e4d478687368fdc3,100000000000000000000000000"
    ```
 
    Additionally you need to set the caller's gas limit high enough as well. This is done in the truffle.js file and it should look like this:
@@ -133,7 +135,7 @@ The following process will allow you to `truffle test` this library in your proj
          development: {
            host: "localhost",
            port: 8545,
-           gas: 4700000000000000, //This is the important line
+           gas: 470000000, //This is the important line
            network_id: "*",
          },
          ...
