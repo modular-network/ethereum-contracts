@@ -31,7 +31,7 @@ import "./WalletMainLib.sol";
 import "./WalletAdminLib.sol";
 import "./WalletGetterLib.sol";
 
-contract WalletLibTestContract {
+contract WalletContract {
   using WalletMainLib for WalletMainLib.WalletData;
   using WalletAdminLib for WalletMainLib.WalletData;
   using WalletGetterLib for WalletMainLib.WalletData;
