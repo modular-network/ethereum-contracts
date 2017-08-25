@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Auction contract for pre-deployed standard token",
   "devDependencies": {
-    "truffle": "^3.4.5",
-    "ethereumjs-testrpc": "^4.0.0"
+    "truffle": "3.4.6",
+    "ethereumjs-testrpc": "4.0.0"
   }
 }
