@@ -3,7 +3,7 @@ Majoolr Contracts
 
 [![Build Status](https://travis-ci.org/Majoolr/ethereum-contracts.svg?branch=master)](https://travis-ci.org/Majoolr/ethereum-contracts)   
 
-Majoolr Contracts currently consists of token auction contracts that were [initially inspired by reddit in the wake of network congestion](https://www.reddit.com/r/ethereum/comments/6iwyta/the_ico_contract_to_end_all_of_the_nonsense/ "reddit post"). All contracts are released under the [MIT License](https://github.com/Majoolr/ethereum-contracts/blob/master/LICENSE "MIT License") and are useable. [We also have an ethereum-libraries repository that currently holds deployed libraries](https://github.com/Majoolr/ethereum-libraries "Github link").
+Majoolr Contracts currently consists of token crowdsale contracts that were [initially inspired by reddit in the wake of network congestion](https://www.reddit.com/r/ethereum/comments/6iwyta/the_ico_contract_to_end_all_of_the_nonsense/ "reddit post"). Additionally, you will find example contracts that utilize our library repository. All contracts are released under the [MIT License](https://github.com/Majoolr/ethereum-contracts/blob/master/LICENSE "MIT License") and are useable. [Please visit our ethereum-libraries repository to view our deployed libraries and get a better understanding of how our system works.](https://github.com/Majoolr/ethereum-libraries "Github link").
 
 Contracts and libraries are currently written in Solidity and Solidity Assembly. If you are not familiar with the workings of Ethereum, smart contracts, or Solidity [please educate yourself by clicking here before proceeding](https://solidity.readthedocs.io/en/develop/introduction-to-smart-contracts.html "Solidity link").
 
@@ -19,7 +19,7 @@ Contracts and libraries are currently written in Solidity and Solidity Assembly.
 
 ## About Us
 
-Majoolr is hitting the ground running in becoming a valuable partner in the Ethereum community. We are not currently open for business but we are open for collaboration and seeking opportunities. [To learn more about Majoolr, our mission, as well as contributing please click here](https://majoolr.io "Majoolr website").
+Majoolr is hitting the ground running in becoming a valuable partner in the Ethereum community. [To learn more about Majoolr, our mission, as well as contributing please click here](https://majoolr.io "Majoolr website").
 
 ## How to use
 

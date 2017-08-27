@@ -29,14 +29,10 @@ import "./ERC20Lib.sol";
 
    string public name;
    string public symbol;
-   uint public INITIAL_SUPPLY;
-   uint public decimals;
+   uint256 public INITIAL_SUPPLY;
+   uint8 public decimals;
 
-   event Transfer(address indexed from, address indexed to, uint value);
-   event Approval(address indexed owner, address indexed spender, uint value);
-   event ErrorMsg(string msg);
-
-   function ICOAuctionStandardToken(string _name, string _symbol, uint _initialSupply, uint _decimals, address _owner) {
+   function ICOAuctionStandardToken(string _name, string _symbol, uint256 _initialSupply, uint8 _decimals, address _owner) {
      name = _name;
      symbol = _symbol;
      INITIAL_SUPPLY = _initialSupply;
@@ -45,15 +41,15 @@ import "./ERC20Lib.sol";
      token.transfer(_owner, _initialSupply);
    }
 
-   function totalSupply() constant returns (uint) {
+   function totalSupply() constant returns (uint256) {
      return token.totalSupply;
    }
 
-   function balanceOf(address who) constant returns (uint) {
+   function balanceOf(address who) constant returns (uint256) {
      return token.balanceOf(who);
    }
 
-   function allowance(address owner, address spender) constant returns (uint) {
+   function allowance(address owner, address spender) constant returns (uint256) {
      return token.allowance(owner, spender);
    }
 
