@@ -1,7 +1,9 @@
 Majoolr Contracts
 =========================
 
-[![Build Status](https://travis-ci.org/Majoolr/ethereum-contracts.svg?branch=master)](https://travis-ci.org/Majoolr/ethereum-contracts)   
+[![Build Status](https://travis-ci.org/Majoolr/ethereum-contracts.svg?branch=master)](https://travis-ci.org/Majoolr/ethereum-contracts)
+[![Join the chat at https://gitter.im/Majoolr/EthereumLibraries](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Majoolr/EthereumLibraries?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Discord](https://img.shields.io/discord/102860784329052160.svg)](https://discord.gg/crxYSF2)   
 
 Majoolr Contracts currently consists of token crowdsale contracts that were [initially inspired by reddit in the wake of network congestion](https://www.reddit.com/r/ethereum/comments/6iwyta/the_ico_contract_to_end_all_of_the_nonsense/ "reddit post"). Additionally, you will find example contracts that utilize our library repository. All contracts are released under the [MIT License](https://github.com/Majoolr/ethereum-contracts/blob/master/LICENSE "MIT License") and are useable. [Please visit our ethereum-libraries repository to view our deployed libraries and get a better understanding of how our system works.](https://github.com/Majoolr/ethereum-libraries "Github link").
 
