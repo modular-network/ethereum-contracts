@@ -2,6 +2,8 @@ Wallet Contract
 =========================
 
 [![Build Status](https://travis-ci.org/Majoolr/ethereum-contracts.svg?branch=master)](https://travis-ci.org/Majoolr/ethereum-contracts)
+[![Join the chat at https://gitter.im/Majoolr/EthereumLibraries](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Majoolr/EthereumLibraries?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Discord](https://img.shields.io/discord/102860784329052160.svg)](https://discord.gg/crxYSF2)   
 
 This is an example multisig wallet contract [utilizing the Majoolr wallet libraries](https://github.com/Majoolr/ethereum-libraries "Github link"). Please familiarize yourself with the wallet libraries in order to get a better understanding of how this works.
 
