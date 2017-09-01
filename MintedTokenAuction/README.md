@@ -1,7 +1,9 @@
 MintedTokenAuction
 =========================
 
-[![Build Status](https://travis-ci.org/Majoolr/ethereum-contracts.svg?branch=master)](https://travis-ci.org/Majoolr/ethereum-contracts)   
+[![Build Status](https://travis-ci.org/Majoolr/ethereum-contracts.svg?branch=master)](https://travis-ci.org/Majoolr/ethereum-contracts)
+[![Join the chat at https://gitter.im/Majoolr/EthereumLibraries](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Majoolr/EthereumLibraries?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Discord](https://img.shields.io/discord/102860784329052160.svg)](https://discord.gg/crxYSF2)   
 
 An auction contract [provided by Majoolr](https://github.com/Majoolr "Majoolr's Github") and developed alongside the StandardICOAuction contract for standard tokens that have already been minted. This contract allows for open bidding for 30 days followed by a random(ish) selection process that decides which bidders will participate if the auction is oversubscribed. If the auction is not oversubscribed then the contract will issue tokens to all bidders. Auction creators will also set a minimum number of tokens to sell that, if not met, will refund all bid money. This contract has some of the following characteristics:
 
