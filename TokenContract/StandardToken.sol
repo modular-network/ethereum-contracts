@@ -34,12 +34,12 @@ contract StandardToken {
 
   TokenLib.TokenStorage token;
 
-  function TokenLibTestContract(address owner,
-                                string name,
-                                string symbol,
-                                uint8 decimals,
-                                uint256 initialSupply,
-                                bool allowMinting)
+  function StandardToken(address owner,
+                         string name,
+                         string symbol,
+                         uint8 decimals,
+                         uint256 initialSupply,
+                         bool allowMinting)
   {
     token.init(owner, name, symbol, decimals, initialSupply, allowMinting);
   }
