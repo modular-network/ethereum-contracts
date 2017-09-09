@@ -29,7 +29,7 @@ import "./TokenLib.sol";
  * SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
  */
 
-contract TokenLibTestContract {
+contract StandardToken {
   using TokenLib for TokenLib.TokenStorage;
 
   TokenLib.TokenStorage token;
